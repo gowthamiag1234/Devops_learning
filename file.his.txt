@@ -1,0 +1,110 @@
+    1  sudo apt install git
+    2  git --version
+    3  git config --global user.name "gowthamiag1234"
+    4  git config --global user.name 
+    5  git config --global user.email "gowthamitharakesh11@gmail.com"
+    6  git config --global user.email
+    7  history
+    8  cd Downloads/
+    9  ls
+   10  sudo dpkg -i gcm-linux_amd64.2.0.785.deb
+   11  cd
+   12  git-credential-manager-core configure
+   13  export GCM_CREDENTIAL_STORE=cache
+   14  mkdir projects
+   15  cd projects
+   16  mkdir firstrepo
+   17  cd firstrepo
+   18  ls -a
+   19  git init 
+   20  ls -a
+   21  touch README.md
+   22  echo "filea" > filea.txt
+   23  echo "fileb" > fileb.txt
+   24  ls
+   25  git status
+   26  git add  README.md
+   27  git add  .
+   28  git status
+   29  git commit -m "adding 3 files README fileafileb"
+   30  git status
+   31  git branch
+   32  git branch featured1
+   33  git branch
+   34  git checkout featured1
+   35  git branch
+   36  echo "filec" > filec
+   37  git status
+   38  git add filec
+   39  git status
+   40  git commit -m "filec added"
+   41  git status
+   42  git branch
+   43  git checkout master
+   44  git status
+   45  ls
+   46  git checkout featured1
+   47  ls
+   48  history
+   49  ls
+   50  git branch
+   51  git checkout master
+   52  git branch
+   53  git merge featured1
+   54  ls
+   55  cd ..
+   56  git clone https://github.com/gowthamiag1234/Devops_learning.git
+   57  ls
+   58  cd Devops_learning
+   59  ls
+   60  ls -a
+   61  cat README.md
+   62  vim filen1.txt
+   63  gitstatus
+   64  git status
+   65  git add filen1.txt
+   66  git commit -m "new"
+   67  git status
+   68  ls
+   69  history
+   70  git push origin
+   71  history
+   72  git clone https://github.com/gowthamiag1234/Devops_learning.git
+   73  ls
+   74  cd projects
+   75  ls
+   76  cd Devops_learning
+   77  ls
+   78  git push origin
+   79  git clone https://github.com/gowthamiag1234/Devops_learning.git
+   80  git push origin
+   81  ls
+   82  git push origin
+   83  git branch
+   84  ls
+   85  echo "file2" > file2.txt
+   86  cat file2.txt
+   87  git status
+   88  git add .
+   89  git add file2.txt
+   90  git commit -m "file2"
+   91  git status
+   92  git push origin
+   93  cd Downloads
+   94  cd ...
+   95  cd
+   96  cd Downloads
+   97  history
+   98  ls
+   99  sudo dpkg -i gcm-linux_amd64.2.0.785.deb
+  100  git-credential-manager-core configure
+  101  export GCM_CREDENTIAL_STORE=cache
+  102  cd
+  103  cd projects
+  104  cd Devops_learning
+  105  ls
+  106  git status
+  107  git pull
+  108  ls
+  109  git status
+  110  history > file.his.txt
